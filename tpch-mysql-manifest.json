@@ -1,0 +1,34 @@
+{
+  "id": "tpch-mysql-manifest",
+  "models": {
+    "region": {
+      "ref": "{{project-dir}}/tpch-region-model.json"
+    },
+    "nation": {
+      "ref": "{{project-dir}}/tpch-nation-model.json"
+    },
+    "customer": {
+      "ref": "{{project-dir}}/tpch-customer-model.json"
+    },
+    "part": {
+      "ref": "{{project-dir}}/tpch-part-model.json"
+    },
+    "supplier": {
+      "ref": "{{project-dir}}/tpch-supplier-model.json"
+    },
+    "orders": {
+      "ref": "{{project-dir}}/tpch-orders-model.json"
+    },
+    "partsupplier": {
+      "ref": "{{project-dir}}/tpch-partsupplier-model.json"
+    },
+    "lineitem": {
+      "ref": "{{project-dir}}/tpch-lineitem-model.json"
+    }
+  },
+  "datastores": {
+    "tpch-mysql": {
+      "ref": "{{project-dir}}/tpch-mysql-datastore.json"
+    }
+  }
+}

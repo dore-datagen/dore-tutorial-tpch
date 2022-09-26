@@ -1,0 +1,10 @@
+{
+  "protocol": "mysql",
+  "properties": {
+    "database": "tpch_mysql_database",
+    "host": "<mysql-host>",
+    "port": "<mysql-port>",
+    "user": "{{mysql-username}}",
+    "password": "{{mysql-password}}"
+  }
+}
